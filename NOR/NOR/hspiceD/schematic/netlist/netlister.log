@@ -1,0 +1,7 @@
+Begin Incremental Netlisting Sep 24 17:11:40 2012
+ERROR: Netlister: can't find the date labs/NOR/schematic was last extracted.
+None of the properties 'lastSchematicExtraction' or 'syLastExtraction' was
+found.
+End netlisting Sep 24 17:11:40 2012
+Begin Incremental Netlisting Sep 24 17:20:54 2012
+End netlisting Sep 24 17:20:54 2012

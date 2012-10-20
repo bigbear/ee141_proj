@@ -1,0 +1,24 @@
+** Generated for: hspiceD
+** Generated on: Sep 24 17:20:54 2012
+** Design library name: labs
+** Design cell name: NOR
+** Design view name: schematic
+.GLOBAL vdd! 0
+
+
+.TEMP 25
+.OPTION
++    ARTIST=2
++    INGOLD=2
++    MEASOUT=1
++    PARHIER=LOCAL
++    PSF=2
+
+** Library name: labs
+** Cell name: NOR
+** View name: schematic
+mpm1 net11 in2 vdd! vdd! gpdk090_pmos1v L=100e-9 W=480e-9 AD=134.4e-15 AS=134.4e-15 PD=1.52e-6 PS=1.52e-6 M=1
+mpm0 out in1 net11 vdd! gpdk090_pmos1v L=100e-9 W=480e-9 AD=134.4e-15 AS=134.4e-15 PD=1.52e-6 PS=1.52e-6 M=1
+mnm1 out in1 0 0 gpdk090_nmos1v L=100e-9 W=120e-9 AD=69.6e-15 AS=69.6e-15 PD=1.16e-6 PS=1.16e-6 M=1
+mnm0 out in2 0 0 gpdk090_nmos1v L=100e-9 W=120e-9 AD=69.6e-15 AS=69.6e-15 PD=1.16e-6 PS=1.16e-6 M=1
+.END

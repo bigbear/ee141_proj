@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      ee141-aj
+HostName                       t7400-4.EECS.Berkeley.EDU
+ProcessIdentifier              4364
+ProcessCreationTime_UTC        1348012967
+ProcessCreationTime_Readable   Tue Sep 18 17:02:47 2012 PDT
+AppIdentifier                  /usr/local/cadence/IC5141USR5-copied-from-share-instsww/tools/dfII/bin/32bit/libManager.exe
+OSType                         lnx86
+ReasonForPlacingEditLock       log file
+FilePathUsedToEditLock         /home/cc/ee141/fa12/class/ee141-aj/labs/libManager.log
+TimeEditLocked                 Tue Sep 18 17:02:48 2012 PDT

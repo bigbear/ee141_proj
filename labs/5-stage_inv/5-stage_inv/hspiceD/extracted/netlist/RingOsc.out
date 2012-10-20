@@ -1,0 +1,28 @@
+detected Linux; starting the 2008 version (/share/b/bin/hspice-2008)...
+Using: /usr/bin/time -p /share/instsww/synopsys/A-2008.03-SP1/hspice/linux/hspice RingOsc.sp
+ ****** HSPICE -- A-2008.03-SP1 32-BIT (May 26 2008) linux ******               
+  Copyright (C) 2008 Synopsys, Inc. All Rights Reserved.                        
+  Unpublished-rights reserved under US copyright laws.
+  This program is protected by law and is subject to the 
+  terms and conditions of the license agreement found in:
+    /share/instsww/synopsys/A-2008.03-SP1/hspice/license.warn
+  Use of this program is your acceptance to be bound by this 
+  license agreement. HSPICE is the trademark of Synopsys, Inc.
+  Input File: RingOsc.sp                                                        
+ lic:  
+ lic: FLEXlm: v8.5b 
+ lic: USER:   ee141-aj             HOSTNAME: t7400-7.EECS.Berkeley.EDU 
+ lic: HOSTID: 001e4ff6ed77         PID:      21514 
+ lic: Using FLEXlm license file: 
+ lic: 27000@cory.eecs.berkeley.edu 
+ lic: Checkout 1 hspice 
+ lic: License/Maintenance for hspice will expire on 24-sep-2012/2012.06 
+ lic: FLOATING license(s) on SERVER cory.eecs.berkeley.edu 
+ lic:   
+ Init: read install configuration file: /share/instsww/synopsys/A-2008.03-SP1/hspice/meta.cfg
+ Init: hspice initialization file: /share/instsww/synopsys/A-2008.03-SP1/hspice/hspice.ini
+  END
+  **error** (RingOsc.sp:2)  could not find library file named /home/ff/ee141/MODELS/gpdk090_mos.sp
+
+               ***** job aborted
+ lic: Release hspice token(s) 

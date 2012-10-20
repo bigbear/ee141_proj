@@ -1,0 +1,27 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "NOR"
+  repList "hspiceD spice cmos_sch cmos.sch schematic"
+  stopList "hspiceD spice"
+  globalList "VDD! GND!"
+  hierDelim "^"
+  netlistDir "/home/cc/ee141/fa12/class/ee141-aj/labs/NOR/NOR/hspiceD/schematic/netlist"
+ )
+( instViewTable
+ )
+( net
+ )
+( inst
+ )
+( model
+( "GND!" "0" )
+( "VDD!" "vdd!" )
+( "labs/NOR/schematic" "NOR" )
+ )
+( term
+ )
+( param
+ )
+( "NOR" "ihnl/cds0/map" )
+ )

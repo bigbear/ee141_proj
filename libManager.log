@@ -1,0 +1,206 @@
+\o Program:		@(#)$CDS: libManager.exe version 5.0.2 01/23/2007 12:28 (ocelot-linux.Cadence.COM) $
+\o Sub version:		sub-version 03.01-s042
+\o Arguments:		-mpssession icfb4319 -mpshost t7400-4.EECS.Berkeley.EDU 
+\o Working Directory:	t7400-4.EECS.Berkeley.EDU:/home/cc/ee141/fa12/class/ee141-aj/labs
+\o Extended color mode (TrueColor 32 0x42) in use.
+\o Warning: LIB basic from File /share/instsww/cadence/IC5141USR5/tools.lnx86/dfII/etc/cdsDotLibs/composer/cds.lib Line 1 redefines
+\o LIB basic from File /home/ff/ee141/gpdk090_v3.9/cds.lib.cdb
+\o Insert UNDEFINE basic
+\o before DEFINE basic
+\o     in /share/instsww/cadence/IC5141USR5/tools.lnx86/dfII/etc/cdsDotLibs/composer/cds.lib
+\o Or remove or comment out DEFINE basic
+\o     in /home/ff/ee141/gpdk090_v3.9/cds.lib.cdb
+\o to suppress this warning message.
+\o Warning: LIB US_8ths from File /share/instsww/cadence/IC5141USR5/tools.lnx86/dfII/etc/cdsDotLibs/composer/cds.lib Line 2 redefines
+\o LIB US_8ths from File /home/ff/ee141/gpdk090_v3.9/cds.lib.cdb
+\o Insert UNDEFINE US_8ths
+\o before DEFINE US_8ths
+\o     in /share/instsww/cadence/IC5141USR5/tools.lnx86/dfII/etc/cdsDotLibs/composer/cds.lib
+\o Or remove or comment out DEFINE US_8ths
+\o     in /home/ff/ee141/gpdk090_v3.9/cds.lib.cdb
+\o to suppress this warning message.
+\o Warning: LIB analogLib from File /share/instsww/cadence/IC5141USR5/tools.lnx86/dfII/etc/cdsDotLibs/artist/cds.lib Line 1 redefines
+\o LIB analogLib from File /home/ff/ee141/gpdk090_v3.9/cds.lib.cdb
+\o Insert UNDEFINE analogLib
+\o before DEFINE analogLib
+\o     in /share/instsww/cadence/IC5141USR5/tools.lnx86/dfII/etc/cdsDotLibs/artist/cds.lib
+\o Or remove or comment out DEFINE analogLib
+\o     in /home/ff/ee141/gpdk090_v3.9/cds.lib.cdb
+\o to suppress this warning message.
+\o Warning: LIB cdsDefTechLib from File /usr/local/cadence/IC5141USR5-copied-from-share-instsww/share/cdssetup/dfII/cds.lib Line 1 redefines
+\o LIB cdsDefTechLib from File /share/instsww/cadence/IC5141USR5/share/cdssetup/dfII/cds.lib
+\o Insert UNDEFINE cdsDefTechLib
+\o before DEFINE cdsDefTechLib
+\o     in /usr/local/cadence/IC5141USR5-copied-from-share-instsww/share/cdssetup/dfII/cds.lib
+\o Or remove or comment out DEFINE cdsDefTechLib
+\o     in /share/instsww/cadence/IC5141USR5/share/cdssetup/dfII/cds.lib
+\o to suppress this warning message.
+\o Warning: LIB basic from File /usr/local/cadence/IC5141USR5-copied-from-share-instsww/tools.lnx86/dfII/etc/cdsDotLibs/composer/cds.lib Line 1 redefines
+\o LIB basic from File /share/instsww/cadence/IC5141USR5/tools.lnx86/dfII/etc/cdsDotLibs/composer/cds.lib
+\o Insert UNDEFINE basic
+\o before DEFINE basic
+\o     in /usr/local/cadence/IC5141USR5-copied-from-share-instsww/tools.lnx86/dfII/etc/cdsDotLibs/composer/cds.lib
+\o Or remove or comment out DEFINE basic
+\o     in /share/instsww/cadence/IC5141USR5/tools.lnx86/dfII/etc/cdsDotLibs/composer/cds.lib
+\o to suppress this warning message.
+\o Warning: LIB US_8ths from File /usr/local/cadence/IC5141USR5-copied-from-share-instsww/tools.lnx86/dfII/etc/cdsDotLibs/composer/cds.lib Line 2 redefines
+\o LIB US_8ths from File /share/instsww/cadence/IC5141USR5/tools.lnx86/dfII/etc/cdsDotLibs/composer/cds.lib
+\o Insert UNDEFINE US_8ths
+\o before DEFINE US_8ths
+\o     in /usr/local/cadence/IC5141USR5-copied-from-share-instsww/tools.lnx86/dfII/etc/cdsDotLibs/composer/cds.lib
+\o Or remove or comment out DEFINE US_8ths
+\o     in /share/instsww/cadence/IC5141USR5/tools.lnx86/dfII/etc/cdsDotLibs/composer/cds.lib
+\o to suppress this warning message.
+\o Warning: LIB analogLib from File /usr/local/cadence/IC5141USR5-copied-from-share-instsww/tools.lnx86/dfII/etc/cdsDotLibs/artist/cds.lib Line 1 redefines
+\o LIB analogLib from File /share/instsww/cadence/IC5141USR5/tools.lnx86/dfII/etc/cdsDotLibs/artist/cds.lib
+\o Insert UNDEFINE analogLib
+\o before DEFINE analogLib
+\o     in /usr/local/cadence/IC5141USR5-copied-from-share-instsww/tools.lnx86/dfII/etc/cdsDotLibs/artist/cds.lib
+\o Or remove or comment out DEFINE analogLib
+\o     in /share/instsww/cadence/IC5141USR5/tools.lnx86/dfII/etc/cdsDotLibs/artist/cds.lib
+\o to suppress this warning message.
+\o Warning: LIB functional from File /usr/local/cadence/IC5141USR5-copied-from-share-instsww/tools.lnx86/dfII/etc/cdsDotLibs/artist/cds.lib Line 2 redefines
+\o LIB functional from File /share/instsww/cadence/IC5141USR5/tools.lnx86/dfII/etc/cdsDotLibs/artist/cds.lib
+\o Insert UNDEFINE functional
+\o before DEFINE functional
+\o     in /usr/local/cadence/IC5141USR5-copied-from-share-instsww/tools.lnx86/dfII/etc/cdsDotLibs/artist/cds.lib
+\o Or remove or comment out DEFINE functional
+\o     in /share/instsww/cadence/IC5141USR5/tools.lnx86/dfII/etc/cdsDotLibs/artist/cds.lib
+\o to suppress this warning message.
+\o Warning: LIB rfLib from File /usr/local/cadence/IC5141USR5-copied-from-share-instsww/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib Line 1 redefines
+\o LIB rfLib from File /share/instsww/cadence/IC5141USR5/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib
+\o Insert UNDEFINE rfLib
+\o before DEFINE rfLib
+\o     in /usr/local/cadence/IC5141USR5-copied-from-share-instsww/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib
+\o Or remove or comment out DEFINE rfLib
+\o     in /share/instsww/cadence/IC5141USR5/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib
+\o to suppress this warning message.
+\o Warning: LIB rfExamples from File /usr/local/cadence/IC5141USR5-copied-from-share-instsww/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib Line 2 redefines
+\o LIB rfExamples from File /share/instsww/cadence/IC5141USR5/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib
+\o Insert UNDEFINE rfExamples
+\o before DEFINE rfExamples
+\o     in /usr/local/cadence/IC5141USR5-copied-from-share-instsww/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib
+\o Or remove or comment out DEFINE rfExamples
+\o     in /share/instsww/cadence/IC5141USR5/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib
+\o to suppress this warning message.
+\o Warning: LIB ahdlLib from File /usr/local/cadence/IC5141USR5-copied-from-share-instsww/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib Line 3 redefines
+\o LIB ahdlLib from File /share/instsww/cadence/IC5141USR5/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib
+\o Insert UNDEFINE ahdlLib
+\o before DEFINE ahdlLib
+\o     in /usr/local/cadence/IC5141USR5-copied-from-share-instsww/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib
+\o Or remove or comment out DEFINE ahdlLib
+\o     in /share/instsww/cadence/IC5141USR5/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib
+\o to suppress this warning message.
+\o Warning: LIB basic from File /usr/local/cadence/IC5141USR5-copied-from-share-instsww/share/cdssetup/cds.lib Line 6 redefines
+\o LIB basic from File /usr/local/cadence/IC5141USR5-copied-from-share-instsww/tools.lnx86/dfII/etc/cdsDotLibs/composer/cds.lib
+\o Insert UNDEFINE basic
+\o before DEFINE basic
+\o     in /usr/local/cadence/IC5141USR5-copied-from-share-instsww/share/cdssetup/cds.lib
+\o Or remove or comment out DEFINE basic
+\o     in /usr/local/cadence/IC5141USR5-copied-from-share-instsww/tools.lnx86/dfII/etc/cdsDotLibs/composer/cds.lib
+\o to suppress this warning message.
+\o Log file is "/home/cc/ee141/fa12/class/ee141-aj/labs/libManager.log".
+Opening libManager window.
+No main selection
+\o Library Manager customization server connected.
+MPS service: map window
+\o Warning: LIB basic from File /share/instsww/cadence/IC5141USR5/tools.lnx86/dfII/etc/cdsDotLibs/composer/cds.lib Line 1 redefines
+\o LIB basic from File /home/ff/ee141/gpdk090_v3.9/cds.lib.cdb
+\o Insert UNDEFINE basic
+\o before DEFINE basic
+\o     in /share/instsww/cadence/IC5141USR5/tools.lnx86/dfII/etc/cdsDotLibs/composer/cds.lib
+\o Or remove or comment out DEFINE basic
+\o     in /home/ff/ee141/gpdk090_v3.9/cds.lib.cdb
+\o to suppress this warning message.
+\o Warning: LIB US_8ths from File /share/instsww/cadence/IC5141USR5/tools.lnx86/dfII/etc/cdsDotLibs/composer/cds.lib Line 2 redefines
+\o LIB US_8ths from File /home/ff/ee141/gpdk090_v3.9/cds.lib.cdb
+\o Insert UNDEFINE US_8ths
+\o before DEFINE US_8ths
+\o     in /share/instsww/cadence/IC5141USR5/tools.lnx86/dfII/etc/cdsDotLibs/composer/cds.lib
+\o Or remove or comment out DEFINE US_8ths
+\o     in /home/ff/ee141/gpdk090_v3.9/cds.lib.cdb
+\o to suppress this warning message.
+\o Warning: LIB analogLib from File /share/instsww/cadence/IC5141USR5/tools.lnx86/dfII/etc/cdsDotLibs/artist/cds.lib Line 1 redefines
+\o LIB analogLib from File /home/ff/ee141/gpdk090_v3.9/cds.lib.cdb
+\o Insert UNDEFINE analogLib
+\o before DEFINE analogLib
+\o     in /share/instsww/cadence/IC5141USR5/tools.lnx86/dfII/etc/cdsDotLibs/artist/cds.lib
+\o Or remove or comment out DEFINE analogLib
+\o     in /home/ff/ee141/gpdk090_v3.9/cds.lib.cdb
+\o to suppress this warning message.
+\o Warning: LIB cdsDefTechLib from File /usr/local/cadence/IC5141USR5-copied-from-share-instsww/share/cdssetup/dfII/cds.lib Line 1 redefines
+\o LIB cdsDefTechLib from File /share/instsww/cadence/IC5141USR5/share/cdssetup/dfII/cds.lib
+\o Insert UNDEFINE cdsDefTechLib
+\o before DEFINE cdsDefTechLib
+\o     in /usr/local/cadence/IC5141USR5-copied-from-share-instsww/share/cdssetup/dfII/cds.lib
+\o Or remove or comment out DEFINE cdsDefTechLib
+\o     in /share/instsww/cadence/IC5141USR5/share/cdssetup/dfII/cds.lib
+\o to suppress this warning message.
+\o Warning: LIB basic from File /usr/local/cadence/IC5141USR5-copied-from-share-instsww/tools.lnx86/dfII/etc/cdsDotLibs/composer/cds.lib Line 1 redefines
+\o LIB basic from File /share/instsww/cadence/IC5141USR5/tools.lnx86/dfII/etc/cdsDotLibs/composer/cds.lib
+\o Insert UNDEFINE basic
+\o before DEFINE basic
+\o     in /usr/local/cadence/IC5141USR5-copied-from-share-instsww/tools.lnx86/dfII/etc/cdsDotLibs/composer/cds.lib
+\o Or remove or comment out DEFINE basic
+\o     in /share/instsww/cadence/IC5141USR5/tools.lnx86/dfII/etc/cdsDotLibs/composer/cds.lib
+\o to suppress this warning message.
+\o Warning: LIB US_8ths from File /usr/local/cadence/IC5141USR5-copied-from-share-instsww/tools.lnx86/dfII/etc/cdsDotLibs/composer/cds.lib Line 2 redefines
+\o LIB US_8ths from File /share/instsww/cadence/IC5141USR5/tools.lnx86/dfII/etc/cdsDotLibs/composer/cds.lib
+\o Insert UNDEFINE US_8ths
+\o before DEFINE US_8ths
+\o     in /usr/local/cadence/IC5141USR5-copied-from-share-instsww/tools.lnx86/dfII/etc/cdsDotLibs/composer/cds.lib
+\o Or remove or comment out DEFINE US_8ths
+\o     in /share/instsww/cadence/IC5141USR5/tools.lnx86/dfII/etc/cdsDotLibs/composer/cds.lib
+\o to suppress this warning message.
+\o Warning: LIB analogLib from File /usr/local/cadence/IC5141USR5-copied-from-share-instsww/tools.lnx86/dfII/etc/cdsDotLibs/artist/cds.lib Line 1 redefines
+\o LIB analogLib from File /share/instsww/cadence/IC5141USR5/tools.lnx86/dfII/etc/cdsDotLibs/artist/cds.lib
+\o Insert UNDEFINE analogLib
+\o before DEFINE analogLib
+\o     in /usr/local/cadence/IC5141USR5-copied-from-share-instsww/tools.lnx86/dfII/etc/cdsDotLibs/artist/cds.lib
+\o Or remove or comment out DEFINE analogLib
+\o     in /share/instsww/cadence/IC5141USR5/tools.lnx86/dfII/etc/cdsDotLibs/artist/cds.lib
+\o to suppress this warning message.
+\o Warning: LIB functional from File /usr/local/cadence/IC5141USR5-copied-from-share-instsww/tools.lnx86/dfII/etc/cdsDotLibs/artist/cds.lib Line 2 redefines
+\o LIB functional from File /share/instsww/cadence/IC5141USR5/tools.lnx86/dfII/etc/cdsDotLibs/artist/cds.lib
+\o Insert UNDEFINE functional
+\o before DEFINE functional
+\o     in /usr/local/cadence/IC5141USR5-copied-from-share-instsww/tools.lnx86/dfII/etc/cdsDotLibs/artist/cds.lib
+\o Or remove or comment out DEFINE functional
+\o     in /share/instsww/cadence/IC5141USR5/tools.lnx86/dfII/etc/cdsDotLibs/artist/cds.lib
+\o to suppress this warning message.
+\o Warning: LIB rfLib from File /usr/local/cadence/IC5141USR5-copied-from-share-instsww/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib Line 1 redefines
+\o LIB rfLib from File /share/instsww/cadence/IC5141USR5/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib
+\o Insert UNDEFINE rfLib
+\o before DEFINE rfLib
+\o     in /usr/local/cadence/IC5141USR5-copied-from-share-instsww/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib
+\o Or remove or comment out DEFINE rfLib
+\o     in /share/instsww/cadence/IC5141USR5/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib
+\o to suppress this warning message.
+\o Warning: LIB rfExamples from File /usr/local/cadence/IC5141USR5-copied-from-share-instsww/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib Line 2 redefines
+\o LIB rfExamples from File /share/instsww/cadence/IC5141USR5/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib
+\o Insert UNDEFINE rfExamples
+\o before DEFINE rfExamples
+\o     in /usr/local/cadence/IC5141USR5-copied-from-share-instsww/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib
+\o Or remove or comment out DEFINE rfExamples
+\o     in /share/instsww/cadence/IC5141USR5/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib
+\o to suppress this warning message.
+\o Warning: LIB ahdlLib from File /usr/local/cadence/IC5141USR5-copied-from-share-instsww/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib Line 3 redefines
+\o LIB ahdlLib from File /share/instsww/cadence/IC5141USR5/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib
+\o Insert UNDEFINE ahdlLib
+\o before DEFINE ahdlLib
+\o     in /usr/local/cadence/IC5141USR5-copied-from-share-instsww/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib
+\o Or remove or comment out DEFINE ahdlLib
+\o     in /share/instsww/cadence/IC5141USR5/tools.lnx86/dfII/etc/cdsDotLibs/spectre/cds.lib
+\o to suppress this warning message.
+\o Warning: LIB basic from File /usr/local/cadence/IC5141USR5-copied-from-share-instsww/share/cdssetup/cds.lib Line 6 redefines
+\o LIB basic from File /usr/local/cadence/IC5141USR5-copied-from-share-instsww/tools.lnx86/dfII/etc/cdsDotLibs/composer/cds.lib
+\o Insert UNDEFINE basic
+\o before DEFINE basic
+\o     in /usr/local/cadence/IC5141USR5-copied-from-share-instsww/share/cdssetup/cds.lib
+\o Or remove or comment out DEFINE basic
+\o     in /usr/local/cadence/IC5141USR5-copied-from-share-instsww/tools.lnx86/dfII/etc/cdsDotLibs/composer/cds.lib
+\o to suppress this warning message.
+MPS request: update library list
+Main selection: labs 5-stage_inv extracted
+\o Opening design file through session server.
+MPS request: edit design

@@ -1,0 +1,4 @@
+$DATA1 SOURCE='HSPICE' VERSION='C-2009.09 32-BIT'
+.TITLE 'homework 2'
+ tp1              temper           alter#            
+  5.278e-12         25.0000           1.0000         

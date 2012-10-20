@@ -1,0 +1,28 @@
+// Generated for: spectre
+// Generated on: Sep 18 15:54:38 2012
+// Design library name: labs
+// Design cell name: inv
+// Design view name: extracted
+simulator lang=spectre
+global 0
+include "/usr/local/cadence/IC5141USR5-copied-from-share-instsww/tools/dfII/samples/artist/ahdlLib/quantity.spectre"
+include "/home/ff/ee141/gpdk090_v3.9/libs.cdb/gpdk090/../../models/spectre/gpdk090.scs" section=NN
+
+// Library name: labs
+// Cell name: inv
+// View name: extracted
+\+1 (out in VDD! VDD!) gpdk090_pmos1v w=2.4e-07 l=1e-07 as=69.6f ad=69.6f \
+        ps=1.16u pd=1.16u m=(1)*(1)
+\+0 (out in GND! GND!) gpdk090_nmos1v w=1.2e-07 l=1e-07 as=69.6f ad=69.6f \
+        ps=1.16u pd=1.16u m=(1)*(1)
+simulatorOptions options reltol=1e-3 vabstol=1e-6 iabstol=1e-12 temp=27 \
+    tnom=27 scalem=1.0 scale=1.0 gmin=1e-12 rforce=1 maxnotes=5 maxwarns=5 \
+    digits=5 cols=80 pivrel=1e-3 ckptclock=1800 \
+    sensfile="../psf/sens.output" checklimitdest=psf 
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts  where=rawfile
+saveOptions options save=allpub

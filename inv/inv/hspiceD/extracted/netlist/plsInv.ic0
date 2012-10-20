@@ -1,0 +1,20 @@
+* "simulator" "HSPICE" 
+* "version" "C-2009.09 32-BIT"
+* "format" "HSP"
+* "rundate" "15:17:53 09/18/2012 "
+* "netlist" "plsInv.sp "
+* "runtitle" "homework 2"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ a =   1.1998        
++ b =   1.3223u       
++ c =   1.1998        
++ in =   0.            
++ x1.vdd =   1.2000        
++ x2.vdd =   1.2000        
++ x3.vdd =   1.2000        
+***   END: Saved Operating Point ***                     

@@ -1,0 +1,8 @@
+// Generated for: spectre
+// Generated on: Sep 18 15:54:38 2012
+// Design library name: labs
+// Design cell name: inv
+// Design view name: extracted
+simulator lang=spectre
+global 0
+include "/usr/local/cadence/IC5141USR5-copied-from-share-instsww/tools/dfII/samples/artist/ahdlLib/quantity.spectre"

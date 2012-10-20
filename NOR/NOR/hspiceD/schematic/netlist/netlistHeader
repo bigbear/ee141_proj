@@ -1,0 +1,6 @@
+** Generated for: hspiceD
+** Generated on: Sep 24 17:20:54 2012
+** Design library name: labs
+** Design cell name: NOR
+** Design view name: schematic
+.GLOBAL vdd! 0

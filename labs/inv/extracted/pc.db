@@ -1,0 +1,12 @@
+#
+gpdk090 pmos1v ivpcell
++1
+#
+gpdk090 nmos1v ivpcell
++0
+#ISCELL
+gpdk090 m1_T symbolic
+I7
+I6
+I8
+I9

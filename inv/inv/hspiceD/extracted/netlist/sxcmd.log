@@ -1,0 +1,48 @@
+### SPICE Explorer log file, revision C2009.03 (build 0903) ###
+### created at 14:37:45 on Tue Sep 18 2012 (Solaris) ###
+# (0) # editor setting overridden by env variable EDITOR
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+# (0) HOME defined
+# (0) fsb dialog open
+# (0) fsb dialog close
+sx_open_sim_file_read "/home/cc/ee141/fa12/class/ee141-aj/labs/inv/inv/hspiceD/extracted/netlist/plsInv.tr0"
+# (0) fsb.¹<ø lvdck
+sx_log "disp_sig 1 A P=null file=0 S='' W='v(in)'' "
+sx_log "disp_sig 1 A P=0 file=0 S='' W='v(b)'' "
+sx_log "disp_sig 1 A P=1 file=0 S='' W='v(a)'' "
+# (0) fsb dialog open
+# (0) fsb dialog close
+sx_open_sim_file_read "/home/cc/ee141/fa12/class/ee141-aj/labs/inv/inv/hspiceD/extracted/netlist/plsInv.tr0"
+# (0) fsb. lvdck
+sx_log "disp_sig 1 A P=null file=1 S='x2.' W='x2.v(vdd)'' "
+# (0) fsb dialog open
+# (0) fsb dialog close
+sx_open_sim_file_read "/home/cc/ee141/fa12/class/ee141-aj/labs/inv/inv/hspiceD/extracted/netlist/plsInv.tr0"
+# (0) fsb.6¶l lvdck
+sx_log "disp_sig 1 A P=3 file=2 S='' W='v(a)'' "
+sx_log "disp_sig 1 A P=null file=2 S='' W='v(a)'' "
+sx_log "disp_sig 1 A P=null file=2 S='' W='v(a)'v(in)'' "
+# (0) pref dialog open
+# (0) pref.pref tabsel 0
+# (0) pref.pref tabsel 1
+# (0) pref.item radio 1
+# (0) pref dialog close
+# (0) pref.ok btn down
+sx_log "disp_sig 1 A P=null file=2 S='' W='v(a)'v(in)'' "
+# (0) fsb dialog open
+# (0) fsb dialog close
+sx_open_sim_file_read "/home/cc/ee141/fa12/class/ee141-aj/labs/inv/inv/hspiceD/extracted/netlist/plsInv.tr0"
+# (0) fsb. lvdck
+# (0) fsb dialog open
+# (0) fsb dialog close
+sx_open_sim_file_read "/home/cc/ee141/fa12/class/ee141-aj/labs/inv/inv/hspiceD/extracted/netlist/plsInv.tr0"
+# (0) fsb. lvdck
+sx_log "disp_sig 1 A P=7 file=4 S='' W='v(a)'' "
+sx_log "disp_sig 1 I P=7 file=4 S='' W='v(a)'v(b)'' "
+sx_log "disp_sig 1 A P=null file=4 S='' W='v(a)'v(b)'' "
+sx_log "disp_sig 1 A P=null file=4 S='' W='v(a)'v(b)'' "
+sx_log "disp_sig 1 A P=null file=4 S='' W='v(a)'v(b)'' "
+sx_log "disp_sig 1 A P=null file=0 S='' W='v(a)'v(in)'' "

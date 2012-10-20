@@ -1,0 +1,8 @@
+CADENCE IHNL01060
+$model
+labs/inv/extracted inv
+$endmodel
+$net
+$endnet
+$param
+$endparam

@@ -1,0 +1,10 @@
+CADENCE IHNL01060
+$model
+labs/NOR/schematic NOR
+$endmodel
+$net
+GND! 0
+VDD! vdd!
+$endnet
+$param
+$endparam

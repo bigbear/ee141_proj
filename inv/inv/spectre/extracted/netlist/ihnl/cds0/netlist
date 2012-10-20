@@ -1,0 +1,8 @@
+
+// Library name: labs
+// Cell name: inv
+// View name: extracted
+\+1 (out in VDD! VDD!) gpdk090_pmos1v w=2.4e-07 l=1e-07 as=69.6f ad=69.6f \
+        ps=1.16u pd=1.16u m=(1)*(1)
+\+0 (out in GND! GND!) gpdk090_nmos1v w=1.2e-07 l=1e-07 as=69.6f ad=69.6f \
+        ps=1.16u pd=1.16u m=(1)*(1)

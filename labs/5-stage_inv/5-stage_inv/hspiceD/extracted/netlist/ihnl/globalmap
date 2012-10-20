@@ -1,0 +1,8 @@
+CADENCE IHNL01060
+$model
+labs/5-stage_inv/extracted _sub0
+$endmodel
+$net
+$endnet
+$param
+$endparam
