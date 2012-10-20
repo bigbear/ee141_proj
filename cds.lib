@@ -8,6 +8,6 @@
 INCLUDE /home/ff/ee141/gpdk090_v3.9/cds.lib.cdb
 SOFTINCLUDE /share/instsww/cadence/IC5141USR5/share/cdssetup/cds.lib
 SOFTINCLUDE /usr/local/cadence/IC5141USR5/share/cdssetup/cds.lib
-DEFINE labs /home/cc/ee141/fa12/class/ee141-aj/labs/labs
+DEFINE labs ~/ee141_proj/labs
 DEFINE avTech /usr/local/cadence/IC5141USR5/../Assura0320001/tools/assura/etc/avtech/avTech
-DEFINE sram /home/cc/ee141/fa12/class/ee141-aj/labs/sram
+DEFINE sram ~/ee141_proj/sram
