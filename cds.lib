@@ -10,3 +10,4 @@ SOFTINCLUDE /share/instsww/cadence/IC5141USR5/share/cdssetup/cds.lib
 SOFTINCLUDE /usr/local/cadence/IC5141USR5/share/cdssetup/cds.lib
 DEFINE labs /home/cc/ee141/fa12/class/ee141-aj/labs/labs
 DEFINE avTech /usr/local/cadence/IC5141USR5/../Assura0320001/tools/assura/etc/avtech/avTech
+DEFINE sram /home/cc/ee141/fa12/class/ee141-aj/labs/sram

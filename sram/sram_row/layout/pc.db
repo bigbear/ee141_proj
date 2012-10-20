@@ -1,0 +1,23 @@
+#
+sram sram_cell layout
+I4
+I3
+I2
+I1
+#ISCELL
+gpdk090 Metal2_T symbolic
+I5
+#ISCELL
+gpdk090 Metal3_T symbolic
+I13
+I12
+I11
+I10
+I9
+I8
+I7
+I6
+#ISCELL
+gpdk090 Metal1_T symbolic
+I15
+I14
