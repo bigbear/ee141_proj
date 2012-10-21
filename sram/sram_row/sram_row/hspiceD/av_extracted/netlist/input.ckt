@@ -1,0 +1,318 @@
+** Generated for: hspiceD
+** Generated on: Oct 20 15:14:12 2012
+** Design library name: sram
+** Design cell name: sram_row
+** Design view name: av_extracted
+
+
+.TEMP 25
+.OPTION
++    ARTIST=2
++    INGOLD=2
++    MEASOUT=1
++    PARHIER=LOCAL
++    PSF=2
+
+** Library name: sram
+** Cell name: sram_row
+** View name: av_extracted
+mi0__nm0 n6__i0__net12 n3__wl n1__bl0 n4__gnd! gpdk090_nmos1v L=100e-9 W=120e-9 AD=43.8e-15 AS=69.6e-15 PD=650e-9 PS=1.16e-6 M=1
+mi0__nm1 n19__gnd! i0__net18 n6__i0__net12 n4__gnd! gpdk090_nmos1v L=100e-9 W=270e-9 AD=43.2e-15 AS=43.8e-15 PD=590e-9 PS=650e-9 M=1
+mi0__nm3 n8__i0__net18 n10__i0__net12 n19__gnd! n4__gnd! gpdk090_nmos1v L=100e-9 W=270e-9 AD=43.8e-15 AS=43.2e-15 PD=650e-9 PS=590e-9 M=1
+mi0__nm2 n1__blb0 n6__wl n8__i0__net18 n4__gnd! gpdk090_nmos1v L=100e-9 W=120e-9 AD=69.6e-15 AS=43.8e-15 PD=1.16e-6 PS=650e-9 M=1
+mi3__nm0 n6__i3__net12 n21__wl n1__bl3 n4__gnd! gpdk090_nmos1v L=100e-9 W=120e-9 AD=43.8e-15 AS=69.6e-15 PD=650e-9 PS=1.16e-6 M=1
+mi3__nm1 n1__gnd! i3__net18 n6__i3__net12 n4__gnd! gpdk090_nmos1v L=100e-9 W=270e-9 AD=43.2e-15 AS=43.8e-15 PD=590e-9 PS=650e-9 M=1
+mi3__nm3 n8__i3__net18 n10__i3__net12 n1__gnd! n4__gnd! gpdk090_nmos1v L=100e-9 W=270e-9 AD=43.8e-15 AS=43.2e-15 PD=650e-9 PS=590e-9 M=1
+mi3__nm2 n1__blb3 n22__wl n8__i3__net18 n4__gnd! gpdk090_nmos1v L=100e-9 W=120e-9 AD=69.6e-15 AS=43.8e-15 PD=1.16e-6 PS=650e-9 M=1
+mi2__nm0 n6__i2__net12 n15__wl n1__bl2 n4__gnd! gpdk090_nmos1v L=100e-9 W=120e-9 AD=43.8e-15 AS=69.6e-15 PD=650e-9 PS=1.16e-6 M=1
+mi2__nm1 n13__gnd! i2__net18 n6__i2__net12 n4__gnd! gpdk090_nmos1v L=100e-9 W=270e-9 AD=43.2e-15 AS=43.8e-15 PD=590e-9 PS=650e-9 M=1
+mi2__nm3 n8__i2__net18 n10__i2__net12 n13__gnd! n4__gnd! gpdk090_nmos1v L=100e-9 W=270e-9 AD=43.8e-15 AS=43.2e-15 PD=650e-9 PS=590e-9 M=1
+mi2__nm2 n1__blb2 n18__wl n8__i2__net18 n4__gnd! gpdk090_nmos1v L=100e-9 W=120e-9 AD=69.6e-15 AS=43.8e-15 PD=1.16e-6 PS=650e-9 M=1
+mi1__nm0 n6__i1__net12 n9__wl n1__bl1 n4__gnd! gpdk090_nmos1v L=100e-9 W=120e-9 AD=43.8e-15 AS=69.6e-15 PD=650e-9 PS=1.16e-6 M=1
+mi1__nm1 n16__gnd! i1__net18 n6__i1__net12 n4__gnd! gpdk090_nmos1v L=100e-9 W=270e-9 AD=43.2e-15 AS=43.8e-15 PD=590e-9 PS=650e-9 M=1
+mi1__nm3 n8__i1__net18 n10__i1__net12 n16__gnd! n4__gnd! gpdk090_nmos1v L=100e-9 W=270e-9 AD=43.8e-15 AS=43.2e-15 PD=650e-9 PS=590e-9 M=1
+mi1__nm2 n1__blb1 n12__wl n8__i1__net18 n4__gnd! gpdk090_nmos1v L=100e-9 W=120e-9 AD=69.6e-15 AS=43.8e-15 PD=1.16e-6 PS=650e-9 M=1
+mi0__pm0 n22__vdd! n3__i0__net18 n3__i0__net12 n13__vdd! gpdk090_pmos1v L=100e-9 W=120e-9 AD=40.8e-15 AS=69.6e-15 PD=680e-9 PS=1.16e-6 M=1
+mi0__pm1 n4__i0__net18 n9__i0__net12 n22__vdd! n13__vdd! gpdk090_pmos1v L=100e-9 W=120e-9 AD=69.6e-15 AS=40.8e-15 PD=1.16e-6 PS=680e-9 M=1
+mi3__pm0 n1__vdd! n3__i3__net18 n3__i3__net12 n4__vdd! gpdk090_pmos1v L=100e-9 W=120e-9 AD=40.8e-15 AS=69.6e-15 PD=680e-9 PS=1.16e-6 M=1
+mi3__pm1 n4__i3__net18 n9__i3__net12 n1__vdd! n4__vdd! gpdk090_pmos1v L=100e-9 W=120e-9 AD=69.6e-15 AS=40.8e-15 PD=1.16e-6 PS=680e-9 M=1
+mi2__pm0 n16__vdd! n3__i2__net18 n3__i2__net12 n7__vdd! gpdk090_pmos1v L=100e-9 W=120e-9 AD=40.8e-15 AS=69.6e-15 PD=680e-9 PS=1.16e-6 M=1
+mi2__pm1 n4__i2__net18 n9__i2__net12 n16__vdd! n7__vdd! gpdk090_pmos1v L=100e-9 W=120e-9 AD=69.6e-15 AS=40.8e-15 PD=1.16e-6 PS=680e-9 M=1
+mi1__pm0 n19__vdd! n3__i1__net18 n3__i1__net12 n10__vdd! gpdk090_pmos1v L=100e-9 W=120e-9 AD=40.8e-15 AS=69.6e-15 PD=680e-9 PS=1.16e-6 M=1
+mi1__pm1 n4__i1__net18 n9__i1__net12 n19__vdd! n10__vdd! gpdk090_pmos1v L=100e-9 W=120e-9 AD=69.6e-15 AS=40.8e-15 PD=1.16e-6 PS=680e-9 M=1
+rg1 bl0 n6__bl0 34.34e-3
+rg2 n6__bl0 n5__bl0 162.9e-3
+rg3 blb0 n5__blb0 34.33e-3
+rg4 n5__blb0 n6__blb0 1.5628
+rg5 bl1 n5__bl1 190.7e-3
+rg6 blb1 n5__blb1 32.13e-3
+rg7 n5__blb1 n6__blb1 1.5628
+rg8 bl2 n6__bl2 32.14e-3
+rg9 n6__bl2 n5__bl2 162.9e-3
+rg10 blb2 n5__blb2 1.5628
+rg11 bl3 n5__bl3 180e-3
+rg12 blb3 n5__blb3 162.8e-3
+rh1 n5__bl0 n4__bl0 2.8
+rh2 n4__blb0 n6__blb0 1.4
+rh3 n5__bl1 n4__bl1 2.8
+rh4 n4__blb1 n6__blb1 1.4
+rh5 n5__bl2 n4__bl2 2.8
+rh6 n4__blb2 n5__blb2 1.4
+rh7 n5__bl3 n4__bl3 2.8
+rh8 n4__blb3 n5__blb3 2.8
+rh9 n24__wl n25__wl 527.4e-3
+rh10 n25__wl n20__wl 149.8e-3
+rh11 n20__wl n17__wl 225e-3
+rh12 n17__wl n26__wl 527.4e-3
+rh13 n26__wl n14__wl 149.8e-3
+rh14 n14__wl n11__wl 225e-3
+rh15 n11__wl n27__wl 527.1e-3
+rh16 n27__wl n8__wl 150e-3
+rh17 n8__wl n5__wl 223.7e-3
+rh18 n5__wl n28__wl 527.1e-3
+rh19 n28__wl n2__wl 150e-3
+rh20 n2__wl wl 100.5e-3
+ri2 n2__bl0 n4__bl0 18.67e-3
+ri3 n1__bl0 n2__bl0 15
+ri4 n1__wl n2__wl 11.4
+ri5 i0__net12 n2__i0__net12 10.4221
+ri6 n2__i0__net12 n4__i0__net12 257.2e-3
+ri8 n2__i0__net12 n7__i0__net12 488.9e-3
+ri10 n3__i0__net12 n4__i0__net12 15
+ri11 n6__i0__net12 n7__i0__net12 15
+ri13 n5__i0__net18 n7__i0__net18 503.6e-3
+ri14 n7__i0__net18 n2__i0__net18 10.4206
+ri15 n7__i0__net18 n9__i0__net18 248.6e-3
+ri17 n4__i0__net18 n5__i0__net18 15
+ri18 n8__i0__net18 n9__i0__net18 15
+ri19 n4__wl n5__wl 11.4
+ri21 n4__blb0 n2__blb0 18.67e-3
+ri22 n1__blb0 n2__blb0 15
+ri24 n2__bl1 n4__bl1 18.67e-3
+ri25 n1__bl1 n2__bl1 15
+ri26 n7__wl n8__wl 11.4
+ri27 i1__net12 n2__i1__net12 10.4221
+ri28 n2__i1__net12 n4__i1__net12 257.2e-3
+ri30 n2__i1__net12 n7__i1__net12 488.9e-3
+ri32 n3__i1__net12 n4__i1__net12 15
+ri33 n6__i1__net12 n7__i1__net12 15
+ri35 n5__i1__net18 n7__i1__net18 503.6e-3
+ri36 n7__i1__net18 n2__i1__net18 10.4206
+ri37 n7__i1__net18 n9__i1__net18 248.6e-3
+ri39 n4__i1__net18 n5__i1__net18 15
+ri40 n8__i1__net18 n9__i1__net18 15
+ri41 n10__wl n11__wl 11.4
+ri43 n4__blb1 n2__blb1 18.67e-3
+ri44 n1__blb1 n2__blb1 15
+ri46 n2__bl2 n4__bl2 18.67e-3
+ri47 n1__bl2 n2__bl2 15
+ri48 n13__wl n14__wl 11.4
+ri49 i2__net12 n2__i2__net12 10.4221
+ri50 n2__i2__net12 n4__i2__net12 257.2e-3
+ri52 n2__i2__net12 n7__i2__net12 488.9e-3
+ri54 n3__i2__net12 n4__i2__net12 15
+ri55 n6__i2__net12 n7__i2__net12 15
+ri57 n5__i2__net18 n7__i2__net18 503.6e-3
+ri58 n7__i2__net18 n2__i2__net18 10.4206
+ri59 n7__i2__net18 n9__i2__net18 248.6e-3
+ri61 n4__i2__net18 n5__i2__net18 15
+ri62 n8__i2__net18 n9__i2__net18 15
+ri63 n16__wl n17__wl 11.4
+ri65 n4__blb2 n2__blb2 18.67e-3
+ri66 n1__blb2 n2__blb2 15
+ri68 n2__bl3 n4__bl3 18.67e-3
+ri69 n1__bl3 n2__bl3 15
+ri70 n19__wl n20__wl 11.4
+ri71 i3__net12 n2__i3__net12 10.4221
+ri72 n2__i3__net12 n4__i3__net12 257.2e-3
+ri74 n2__i3__net12 n7__i3__net12 488.9e-3
+ri76 n3__i3__net12 n4__i3__net12 15
+ri77 n6__i3__net12 n7__i3__net12 15
+ri79 n5__i3__net18 n7__i3__net18 503.6e-3
+ri80 n7__i3__net18 n2__i3__net18 10.4206
+ri81 n7__i3__net18 n9__i3__net18 248.6e-3
+ri83 n4__i3__net18 n5__i3__net18 15
+ri84 n8__i3__net18 n9__i3__net18 15
+ri85 n23__wl n24__wl 1.4
+ri87 n4__blb3 n2__blb3 18.67e-3
+ri88 n1__blb3 n2__blb3 15
+ri90 n2__vdd! n5__vdd! 178.7e-3
+ri91 n5__vdd! n6__vdd! 137.4e-3
+ri92 n6__vdd! n8__vdd! 175.3e-3
+ri93 n8__vdd! n9__vdd! 137.4e-3
+ri94 n9__vdd! n11__vdd! 175.3e-3
+ri95 n11__vdd! n12__vdd! 137.3e-3
+ri96 n12__vdd! n14__vdd! 175.3e-3
+ri97 n14__vdd! n15__vdd! 137.3e-3
+ri98 n15__vdd! vdd! 6.6e-3
+ri99 n8__vdd! n17__vdd! 360e-3
+ri101 n11__vdd! n20__vdd! 360e-3
+ri103 n14__vdd! n23__vdd! 360e-3
+ri105 n1__vdd! n2__vdd! 15
+ri106 n4__vdd! n5__vdd! 3
+ri107 n7__vdd! n8__vdd! 3
+ri108 n10__vdd! n11__vdd! 3
+ri109 n13__vdd! n14__vdd! 3
+ri110 n16__vdd! n17__vdd! 15
+ri111 n19__vdd! n20__vdd! 15
+ri112 n22__vdd! n23__vdd! 15
+ri114 n2__gnd! n5__gnd! 228.8e-3
+ri115 n5__gnd! n6__gnd! 144.7e-3
+ri116 n6__gnd! n7__gnd! 167.9e-3
+ri117 n7__gnd! n8__gnd! 144.7e-3
+ri118 n8__gnd! n9__gnd! 167.9e-3
+ri119 n9__gnd! n10__gnd! 144.7e-3
+ri120 n10__gnd! n11__gnd! 167.9e-3
+ri121 n11__gnd! n12__gnd! 144.7e-3
+ri122 n12__gnd! 0 2.533e-3
+ri123 n7__gnd! n14__gnd! 410e-3
+ri125 n9__gnd! n17__gnd! 410e-3
+ri127 n11__gnd! n20__gnd! 410e-3
+ri129 n1__gnd! n2__gnd! 15
+ri130 n4__gnd! n5__gnd! 3
+ri131 n4__gnd! n7__gnd! 3
+ri132 n4__gnd! n9__gnd! 3
+ri133 n4__gnd! n11__gnd! 3
+ri134 n13__gnd! n14__gnd! 15
+ri135 n16__gnd! n17__gnd! 15
+ri136 n19__gnd! n20__gnd! 15
+rj1 n3__wl n1__wl 32.3639
+rj2 i0__net18 n2__i0__net18 25.2766
+rj3 n2__i0__net18 n3__i0__net18 59.5054
+rj4 n9__i0__net12 i0__net12 36.3679
+rj5 i0__net12 n10__i0__net12 49.7766
+rj6 n6__wl n4__wl 32.3639
+rj7 n9__wl n7__wl 32.3639
+rj8 i1__net18 n2__i1__net18 25.2766
+rj9 n2__i1__net18 n3__i1__net18 59.5054
+rj10 n9__i1__net12 i1__net12 36.3679
+rj11 i1__net12 n10__i1__net12 49.7766
+rj12 n12__wl n10__wl 32.3639
+rj13 n15__wl n13__wl 32.3639
+rj14 i2__net18 n2__i2__net18 25.2766
+rj15 n2__i2__net18 n3__i2__net18 59.5054
+rj16 n9__i2__net12 i2__net12 36.3679
+rj17 i2__net12 n10__i2__net12 49.7766
+rj18 n18__wl n16__wl 32.3639
+rj19 n21__wl n19__wl 32.3639
+rj20 i3__net18 n2__i3__net18 25.2766
+rj21 n2__i3__net18 n3__i3__net18 59.5054
+rj22 n9__i3__net12 i3__net12 36.3679
+rj23 i3__net12 n10__i3__net12 49.7766
+rj24 n22__wl n23__wl 42.3639
+c1 vdd! 0 114.2e-18
+c2 wl 0 21.35e-18
+c3 bl0 0 21e-18
+c4 bl1 0 40.89e-18
+c5 bl2 0 16.95e-18
+c6 bl3 0 29.57e-18
+c7 blb0 0 19.8e-18
+c8 blb1 0 22.09e-18
+c9 blb2 0 27.28e-18
+c10 blb3 0 29.47e-18
+c11 i0__net12 0 176.9e-18
+c12 i0__net18 0 57.28e-18
+c13 i3__net12 0 178.7e-18
+c14 i3__net18 0 57.35e-18
+c15 i2__net12 0 177.2e-18
+c16 i2__net18 0 57.33e-18
+c17 i1__net12 0 177.2e-18
+c18 i1__net18 0 56.05e-18
+c19 n3__i0__net18 0 47.12e-18
+c20 n9__i0__net12 0 42.23e-18
+c21 n3__i1__net18 0 48.58e-18
+c22 n9__i1__net12 0 40.88e-18
+c23 n3__i2__net18 0 48.46e-18
+c24 n9__i2__net12 0 40.85e-18
+c25 n3__i3__net18 0 48.42e-18
+c26 n9__i3__net12 0 40.88e-18
+c27 n3__wl 0 48.28e-18
+c28 n10__i0__net12 0 73.58e-18
+c29 n6__wl 0 48.61e-18
+c30 n9__wl 0 50.34e-18
+c31 n10__i1__net12 0 73.42e-18
+c32 n12__wl 0 50.65e-18
+c33 n15__wl 0 50.4e-18
+c34 n10__i2__net12 0 72.29e-18
+c35 n18__wl 0 50.53e-18
+c36 n21__wl 0 50.42e-18
+c37 n10__i3__net12 0 73.66e-18
+c38 n22__wl 0 48.94e-18
+c39 n5__bl0 0 184.2e-18
+c40 n6__blb0 0 204e-18
+c41 n5__bl1 0 271.4e-18
+c42 n6__blb1 0 199.5e-18
+c43 n5__bl2 0 254.7e-18
+c44 n5__blb2 0 200.3e-18
+c45 n5__bl3 0 266.9e-18
+c46 n5__blb3 0 136e-18
+c47 n1__wl 0 49.5e-18
+c48 n2__i0__net18 0 195.7e-18
+c49 n4__wl 0 53.43e-18
+c50 n7__wl 0 52.6e-18
+c51 n2__i1__net18 0 197.6e-18
+c52 n10__wl 0 51.52e-18
+c53 n13__wl 0 51.94e-18
+c54 n2__i2__net18 0 197e-18
+c55 n16__wl 0 51.52e-18
+c56 n19__wl 0 51.94e-18
+c57 n2__i3__net18 0 197.2e-18
+c58 n23__wl 0 48.98e-18
+c59 n4__bl0 0 93.42e-18
+c60 n2__wl 0 149.6e-18
+c61 n5__wl 0 146.1e-18
+c62 n4__blb0 0 169.4e-18
+c63 n4__bl1 0 109.8e-18
+c64 n8__wl 0 150.1e-18
+c65 n11__wl 0 150.7e-18
+c66 n4__blb1 0 170.5e-18
+c67 n4__bl2 0 103.7e-18
+c68 n14__wl 0 149.5e-18
+c69 n17__wl 0 150.7e-18
+c70 n4__blb2 0 171.2e-18
+c71 n4__bl3 0 103.7e-18
+c72 n20__wl 0 149.8e-18
+c73 n24__wl 0 173.7e-18
+c74 n4__blb3 0 146e-18
+c75 n13__vdd! 0 96.99e-18
+c76 n10__vdd! 0 224.7e-18
+c77 n7__vdd! 0 224.1e-18
+c78 n4__vdd! 0 170.5e-18
+c79 n6__bl0 0 16e-18
+c80 n5__blb0 0 13.2e-18
+c81 n5__blb1 0 13.68e-18
+c82 n6__bl2 0 29.94e-18
+c83 n28__wl 0 98.14e-18
+c84 n27__wl 0 100.2e-18
+c85 n26__wl 0 100.2e-18
+c86 n25__wl 0 100.2e-18
+c87 n12__vdd! 0 151.3e-18
+c88 n2__i0__net12 0 83.45e-18
+c89 n4__i0__net12 0 44.35e-18
+c90 n7__i0__net12 0 112.6e-18
+c91 n5__i0__net18 0 66.95e-18
+c92 n7__i0__net18 0 112.5e-18
+c93 n9__i0__net18 0 79.01e-18
+c94 n2__i1__net12 0 86.28e-18
+c95 n4__i1__net12 0 45.29e-18
+c96 n7__i1__net12 0 117.1e-18
+c97 n5__i1__net18 0 66.26e-18
+c98 n7__i1__net18 0 111.3e-18
+c99 n9__i1__net18 0 78.68e-18
+c100 n2__i2__net12 0 84.89e-18
+c101 n4__i2__net12 0 44.9e-18
+c102 n7__i2__net12 0 116.1e-18
+c103 n5__i2__net18 0 66.26e-18
+c104 n7__i2__net18 0 111.3e-18
+c105 n9__i2__net18 0 78.68e-18
+c106 n2__i3__net12 0 85.07e-18
+c107 n4__i3__net12 0 45.13e-18
+c108 n7__i3__net12 0 116.5e-18
+c109 n5__i3__net18 0 65.33e-18
+c110 n7__i3__net18 0 111.7e-18
+c111 n9__i3__net18 0 75.73e-18
+c112 n2__vdd! 0 39.99e-18
+c113 n17__vdd! 0 39.85e-18
+c114 n20__vdd! 0 39.88e-18
+c115 n23__vdd! 0 40.33e-18
+.END

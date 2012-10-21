@@ -1,9 +1,9 @@
 #
 sram sram_cell layout
+I1
 I4
 I3
 I2
-I1
 #ISCELL
 gpdk090 Metal2_T symbolic
 I5
